@@ -35,8 +35,9 @@ public class VideoBrowserListFragment extends ListFragment implements
         LoaderManager.LoaderCallbacks<List<MediaInfo>> {
 
     private static final String TAG = "VideoBrowserListFragment";
-    private static final String CATALOG_URL =
-            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/d.json";
+    // private static final String CATALOG_URL =
+            // "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/d.json";
+    private static final String CATALOG_URL = "http://www.dr.dk/muTest/api/1.0/list/view/mostviewed?channel=dr1&channeltype=TV&limit=5&offset=0";
     private VideoListAdapter mAdapter;
 
     /*
